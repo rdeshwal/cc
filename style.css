@@ -1,0 +1,37 @@
+body {
+  font-family: "Helvetica Neue", Roboto, Arial, sans-serif;
+  position: relative;
+  font-weight: 400px;
+  font-size: 11px;
+  /*Gradient behind the page*/
+  background: #FFF;
+}
+
+.header, .footer, .content {
+	position:absolute;
+	right :0;
+	left:0;
+}
+
+.logo {
+	background-image: url("logo.png");
+  padding: 22px;
+  background-repeat: no-repeat;
+}
+.header {
+       top: 25px;
+    border-bottom: 1px solid red;
+    height: 40px;
+
+}
+
+.chevron-logo-text {
+	    margin-left: 30px;
+    display: inline;
+    color: darkblue;
+}
+.footer {
+	bottom : 12px;
+	border-top: 1px solid red;
+    padding-top: 9px;
+}
