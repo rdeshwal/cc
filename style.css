@@ -1,16 +1,16 @@
+/*header,footer and content - start*/
+
 body {
   font-family: "Helvetica Neue", Roboto, Arial, sans-serif;
   position: relative;
-  font-weight: 400px;
   font-size: 11px;
-  /*Gradient behind the page*/
   background: #FFF;
 }
 
-.header, .footer, .content {
-	position:absolute;
-	right :0;
-	left:0;
+.footer {
+	bottom : 12px;
+	border-top: 1px solid red;
+    padding-top: 9px;
 }
 
 .logo {
@@ -19,9 +19,20 @@ body {
   background-repeat: no-repeat;
 }
 .header {
-       top: 25px;
+	position: relative;
+       top: 21px;
     border-bottom: 1px solid red;
-    height: 40px;
+    height: 45px;
+
+}
+
+.content {
+position: relative;
+min-height: 500px;
+	top:47px;
+	font-size:14px;
+	margin-bottom: 85px;
+	left:40px;
 
 }
 
@@ -29,9 +40,130 @@ body {
 	    margin-left: 30px;
     display: inline;
     color: darkblue;
+    font-size: 20px;
 }
-.footer {
-	bottom : 12px;
-	border-top: 1px solid red;
-    padding-top: 9px;
+
+/*header,footer and content - end*/
+
+/*Search page - start*/
+.search-text-heading {
+    color: darkblue;	
 }
+
+.search-text {
+	margin : 33px 0px;
+}
+
+.search-text input[type="text"] {
+	width: 400px;
+}
+
+.btn-search {
+	    margin-left: 87px;
+}
+
+.search-text-heading, .search-text {
+	font-size: 15px;
+}
+/*Search page - end */
+
+/*Search results page - start*/
+
+.results-count-text {
+	font-weight: bold;
+	margin-top: 20px;
+}
+.search-results-heading {
+	font-weight: bold;
+}
+
+.table {
+    display:table;
+    margin:36px 0px;
+    font-size: 15px;
+}
+.table-header {
+    display:table-header-group;
+    font-weight:bold;
+    font-size: 16px;
+}
+.row {
+    display:table-row;
+}
+.rowGroup {
+    display:table-row-group;
+}
+.cell {
+    display:table-cell;
+    width:20%;
+}
+
+/*Search results page - end*/
+
+/*Search comparison page - start*/
+
+.table.comparison-table {
+	margin: 0 0 36px;
+}
+.comparison-second-table .cell {
+	width: 15%;
+}
+.comparison-table .cell {
+	width: 11%;
+}
+.comparison-1 {
+	color: brown;
+	font-weight: bold;
+	font-size: 18px;
+	left: 305px;
+    position: relative;
+}
+.comparison-2 {
+	position: relative;
+	left:505px;
+	color: blue;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+.comparison-text {
+	    padding: 31px 0 0;
+    width: 800px;
+}
+
+.sub-cell {
+	position: relative;
+    left: 20px;
+}
+.value {
+	color: blue;
+}
+
+.table-header.comparison-heading span {
+	    position: relative;
+    bottom: 13px;
+}
+.comparison-heading {
+	text-decoration: underline;
+	font-weight: bold;
+	margin-top:32px;
+	font-size: 16px;
+}
+
+.competitor-product, .competitor-value {
+	color: brown;
+}
+
+.company-product {
+	color:blue;
+}
+
+button {
+	width : 152px;
+}
+.comparison-buttons {
+	position: relative;
+	left: 150px;
+}
+/*Search comparison page - end*/
